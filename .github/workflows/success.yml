@@ -1,0 +1,10 @@
+name: Success Message on Push
+
+on: [push]
+
+jobs:
+  success:
+    runs-on: ubuntu-latest
+    steps:
+    - name: Success message
+      run: echo "Push successful!"
